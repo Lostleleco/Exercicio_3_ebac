@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body>header {
+    display: flex;
+    background-color: red;
+    padding: 16px 0;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-weight: bolder;
+    margin-right: 25px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articles article img {
+    height: 180px;
+    width: 100%;
+}
+
+.articles article {
+    width: 20%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+.articles article,
+{
+margin-bottom: 16px;
+
+}
+
+h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+
+}
+
+.articles article a {
+    font-size: 24px;
+}
+
+
+
+#sports {
+    background-color: rgb(105, 209, 105);
+    padding: 40px;
+
+}
+
+#sports .articles article a {
+    background-color: aqua;
+    color: black;
+}
+
+#sports .articles article {
+    background-color: #009432;
+}
+
+#econom {
+    background-color: rgb(202, 128, 32);
+    padding: 33%;
+
+}
+
+#economy .articles article {
+    background-color: yellow;
+}
+
+#games .articles article {
+    background-color: aqua;
+
+}
+
+#games {
+    background-color: cadetblue;
+    padding: 93px;
+
+}
+
+
+#musicas .articles article {
+    background-color: rgb(151, 81, 81);
+}
+
+#musicas {
+    background-color: rgb(121, 46, 108);
+    padding: 93px;
+}
+
+header nav.menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 20px;
+}
+
+.titulo1 {
+    font-size: 36px;
+    position: absolute;
+    top: 54px;
+}
+
+.titulo2 {
+    font-size: 30px;
+    position: absolute;
+    top: 95%;
+   
+}
+
+.titulo3 {
+    font-size: 36px;
+    position: absolute;
+    top: 180%;
+}
+
+.final {
+    font-size: 36px;
+    position: absolute;
+    top: 300%;
+}
+
+
+.div articles {
+    background-color: yellow;
+    background-size: 100%;
+}
+
+.div articles {
+    background-color: yellow;
+    
+}
+#economy {
+    padding: 0;
+}
+.articles {
+    
+}
